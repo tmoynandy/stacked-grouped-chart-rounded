@@ -12,7 +12,7 @@ class App extends Component {
 
     this.state = {
       data: {
-        labels: ["Week 1", "Week 2", "Week 3", "Week 4"],
+        labels: ["Week I", "Week II", "Week III", "Week IV"],
         datasets: [
           {
             label: "Pending Approval",
@@ -28,7 +28,7 @@ class App extends Component {
             stack: 1
           },
           {
-            label: "Approved",
+            label: "Approved!",
             backgroundColor: "green",
             data: [40, 50, 20, 45],
             stack: 1
@@ -40,13 +40,13 @@ class App extends Component {
             stack: 2
           },
           {
-            label: "Invoice Created",
+            label: "Invoice Created!",
             backgroundColor: "rgb(51, 204, 51)",
             data: [51, 25, 10, 30],
             stack: 2
           },
           {
-            label: "Approved",
+            label: "Approved!",
             backgroundColor: "green",
             data: [45, 40, 22, 55],
             stack: 2
@@ -58,13 +58,13 @@ class App extends Component {
             stack: 3
           },
           {
-            label: "Invoice Created",
+            label: "Invoice Created!",
             backgroundColor: "rgb(51, 204, 51)",
             data: [51, 25, 10, 30],
             stack: 3
           },
           {
-            label: "Approved",
+            label: "Approved!",
             backgroundColor: "green",
             data: [45, 40, 22, 55],
             stack: 3
@@ -76,13 +76,13 @@ class App extends Component {
             stack: 4
           },
           {
-            label: "Invoice Created",
+            label: "Invoice Created!",
             backgroundColor: "rgb(51, 204, 51)",
             data: [51, 25, 10, 30],
             stack: 4
           },
           {
-            label: "Approved",
+            label: "Approved!",
             backgroundColor: "green",
             data: [45, 40, 22, 55],
             stack: 4
@@ -140,7 +140,7 @@ class App extends Component {
                 stepSize: 1,
                 labelOffset: 55,
                 callback: function(value, index, values) {
-                  var weeks = ["Week 1", "Week 2", "Week 3", "Week 4"];
+                  var weeks = ["Week I", "Week II", "Week III", "Week IV"];
                   return weeks[index];
                 }
               }
